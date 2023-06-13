@@ -1,0 +1,70 @@
+import React from "react";
+// import List from "./List";
+import Button from "./Button";
+// import List from "./List";
+
+// import Header from "./Header";
+// import List from "./List";
+
+class App extends React.Component {
+    // state = {
+    //     books: ["Whose child is this","Chicken Soup for the sould"]
+    // }
+    // state = {
+    //     book: {
+    //         name: "Whose child is this",
+    //         author: "Bill Willson"
+    //     }
+    // }
+    state = {
+        book: "Whose child is this",
+        author: "Bill Willson"
+    }
+    render(){
+        return(
+            <>
+                <Button color="biru" />
+
+                {/* <div>
+                    <List book={this.state.book} author={this.state.author}></List>
+                </div> */}
+                {/* <Header />
+                <List /> */}
+                {/* <h3>judul: { this.state.book.name }</h3> */}
+                {/* <h3>pengarang: { this.state.book.author }</h3> */}
+                {/* { this.state.books.map(item => 
+                    <div>
+                        <h3>{item}</h3>
+                    </div>
+                )} */}
+                {/* <List name="sunarya" test="test" myBook={this.state.book}>
+                    
+                    Child1
+
+                    <h2>Child2</h2>
+                    
+                    </List>
+                <div>
+                    <hr />
+                    <p>copy right @ 2023</p>
+                </div> */}
+            </>
+        )
+    }
+}
+
+// const App = () => {
+//     return (
+//         <div>
+//             <h1>Hello World</h1>
+//         </div>
+//     )
+// }
+
+export default App;
+
+
+
+
+
+
